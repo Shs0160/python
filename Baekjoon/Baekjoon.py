@@ -1,0 +1,26 @@
+#print("\\    /\\")
+#print(" )  ( ')")
+#print("(  /  )")
+#print(" \\(__)|")
+
+#print("|\\_/|")
+#print("|q p|   /}")
+#print("( 0 )\"\"\"\\")
+#print("|\"^\"`    |")
+#print("||_/=\\\\__|")
+
+#a, b = input( ).split()
+#int_a = int(a)
+#int_b = int(b)
+#print( int_a + int_b )
+#print( int_a - int_b )
+#print( int_a * int_b )
+#print( int_a / int_b )
+#print( int_a % int_b )
+
+#st = input()
+#print( st + "??!" )
+a = input()
+int_a = int(a)
+t_a = int_a - 543
+print(t_a)

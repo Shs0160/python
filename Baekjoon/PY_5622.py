@@ -6,3 +6,4 @@ for j in range(len(a)):
         if a[j] in i:
             ret += dial.index(i)+3
 print(ret)
+print("Hello")

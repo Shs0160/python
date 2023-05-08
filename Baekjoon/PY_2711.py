@@ -1,16 +1,4 @@
-N = int(input())
-num = N
-count = 0
-
-while True:
-    a = num // 10
-    b = num % 10
-    c = (a + b) % 10
-    num = (b * 10) + c
-    count += 1
-    if (num == N):
-
-        break
-
-print(count)
-
+for _ in range(int(input())):
+    n, string = input().split()
+    n = int(n)
+    print(string[:n-1], string[n:], sep='')
